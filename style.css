@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+html {
+  height: 430vh;
+}
+
+.container{
+  max-width: 1280px;
+  margin:auto;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header{
+  width: 100%;
+  padding: 60px 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .7s;
+}
+
+header.rolagem{
+  background-color: #fff;
+  padding: 20px 4%;
+  box-shadow: 0 3px 0 #3b2ecc;
+}
+
+header.rolagem a{
+  color:#3b2ecc
+}
+
+header.rolagem img{
+  color: #3b2ecc;
+  width: 80px;
+  border:#3b2ecc solid 3px;
+border-radius:50%;
+}
+header.rolagem .evamar{
+  color: #3b2ecc;
+  width: 500px;
+  border:#3b2ecc solid 3px;
+border-radius:15px;
+}
+
+header .ev{
+  width: 80px;
+  border:#3b2ecc solid 3px;
+border-radius:50%}
+
+header .evamar{
+  width: 500px;
+  border-radius:15px;
+}
+
+header ul{
+  list-style: none;
+  
+}
+
+header li{
+  display: inline-block;
+  margin: 0px 40px;
+}
+
+header ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner{
+  background-image: url(img/barco09.gif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.banner h1{
+  font-size: 4em;
+  color: #fff;
+}
+
+.banner h1 span{
+  color: #3b2ecc
+}
+
+button {
+  background-color: #3b2ecc;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+  width: 150px;
+  height: 40px;
+}
+
+div button:hover{
+  background-color: white;
+  color: #3b2ecc;
+
+}
+
+.dropdown-menu i{
+  
+  padding: 5px;
+  color: #3b2ecc;
+}
+
+.dropdown-menu i:hover{
+  color: #3b2ecc;
+}
+
+.videira{
+  justify-content: center;
+}
+
+.site{
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  font-size: 38px;
+  color: #3b2ecc;
+}
+
+hr {
+  width: 1280px;
+}
+
+.videira{
+  margin: auto;
+  padding: auto;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+
+}
+
+.containera{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3f2fd;
+  overflow-y: -10;
+  color: #333;
+}
+
+.testimonial .image{
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial{
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.testimonial .slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.slide p{
+  padding: 0 160px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.slide i{
+  font-size: 30px;
+  color: #3b2ecc;
+}
+
+.slide .details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details .name{
+  font-size: 15px;
+  font-weight: 800;
+  color: #333;
+}
+
+.cont p{
+  font-size: 15px;
+
+}
+
+.list img{
+  
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+footer{
+  display: flex;
+justify-content: space-between;
+background-color: #3b2ecc;
+color: #fff;
+align-items: center;
+padding-top: 30px;
+bottom: -2000px;
+}
+
+
+.aborto img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.drogas img{
+  width: 100px
+  ;
+}
+
+.container1{display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.h2{margin-top: 20px;
+  display: flex;
+  align-items: center;
+text-align: center;
+justify-content: center;
+font-size: 25px;
+font-weight: 900;
+color: #3b2ecc;
+}
+
+.mensagens{
+  text-decoration: none;
+  color: #3b2ecc; 
+  list-style-type: none;
+}
+
+
+.Chico img{
+  box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, .2);
+  border-radius: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: #3b2ecc;
+  font-weight: 700;
+}
+
+
+
+.carousel-slide {
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  justify-content: center;
+}
+
+.carousel-slide img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.carousel-slide span{
+  color: #3b2ecc;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.active {
+  opacity: 1;
+}
+
+.fa-quote-right{
+  color: #3b2ecc;
+}
